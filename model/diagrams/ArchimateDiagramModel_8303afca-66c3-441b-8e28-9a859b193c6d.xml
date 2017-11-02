@@ -1,4 +1,52 @@
 <archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Default View"
-    id="8303afca-66c3-441b-8e28-9a859b193c6d"/>
+    name="In-bound integration view"
+    id="8303afca-66c3-441b-8e28-9a859b193c6d">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="d5cbd4bd-c090-458e-97e3-ac00c529dfd2">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="aef88c94-16e3-4908-b8c5-0884b4ae0c41"
+        source="d5cbd4bd-c090-458e-97e3-ac00c529dfd2"
+        target="08b1f869-fcd3-4afe-b48c-81cc86cf730b">
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_31fc2e05-9d09-4093-86c7-c8aea2fb0f03.xml#31fc2e05-9d09-4093-86c7-c8aea2fb0f03"/>
+    </sourceConnections>
+    <bounds
+        x="142"
+        y="74"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_8ed30c18-9e79-4d0d-a99c-f7c9af0b5abb.xml#8ed30c18-9e79-4d0d-a99c-f7c9af0b5abb"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="08b1f869-fcd3-4afe-b48c-81cc86cf730b"
+      targetConnections="aef88c94-16e3-4908-b8c5-0884b4ae0c41">
+    <bounds
+        x="522"
+        y="77"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_0affe7ef-5005-46f8-b780-a07fa877a7dc.xml#0affe7ef-5005-46f8-b780-a07fa877a7dc"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="418b9869-c9ea-43b6-afbf-bd35d58df3be">
+    <bounds
+        x="324"
+        y="192"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:DataObject"
+        href="DataObject_0bf54805-736e-4292-9a3c-3438bb0411d9.xml#0bf54805-736e-4292-9a3c-3438bb0411d9"/>
+  </children>
+</archimate:ArchimateDiagramModel>
